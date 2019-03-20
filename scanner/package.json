@@ -8,7 +8,8 @@
   "dependencies": {
     "base-64": "^0.1.0",
     "input-event": "song940/input-event",
-    "node-fetch": "^2.1.2"
+    "node-fetch": "^2.1.2",
+    "nfc-pcsc": "^0.6.2"
   },
   "devDependencies": {
     "babel-eslint": "^8.2.2",
