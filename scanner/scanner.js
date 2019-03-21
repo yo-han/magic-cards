@@ -14,7 +14,7 @@ if(config.input_device == 'acr122') {
 
     reader.on('card', card => {
 	string = card.uid;
-
+        cardProcessor.process(string)
     });
 
     reader.on('error', err => {

@@ -1,0 +1,9 @@
+{
+  "apps": [
+	{
+	"name": "remote",
+	"script": "/home/pi/magic-cards/remote/remote.js"
+    	}
+]
+}
+

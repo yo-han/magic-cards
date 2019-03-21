@@ -1,0 +1,4 @@
+#!/bin/bash
+bluetoothctl << EOF
+connect FF:FF:80:00:09:80
+

@@ -13,6 +13,8 @@ sudo systemctl daemon-reload
 sudo cp script/systemd/magiccards-scanner.service /etc/systemd/system/magiccards-scanner.service
 sudo systemctl daemon-reload
 
+npm install -g pm2
+
 echo "Starting Magic Cards..."
 
 sudo systemctl start magiccards-server.service

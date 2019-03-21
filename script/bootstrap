@@ -22,3 +22,8 @@ cd ..
 
 cd scanner
 yarn
+
+cd ..
+
+cd remote
+yarn

@@ -1,0 +1,19 @@
+{
+  "name": "magic-cards-remote",
+  "author": "Johan Kuijt <magiccards@w3f.nl>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node remote.js"
+  },
+  "dependencies": {
+    "node-hid": "^0.7.7",
+    "onoff": "^4.1.1"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.2",
+    "eslint": "^4.19.1",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-prettier": "^2.6.0",
+    "prettier": "^1.11.1"
+  }
+}

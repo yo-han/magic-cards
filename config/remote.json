@@ -1,0 +1,10 @@
+{
+  "remote": {
+    "up": "mpc volume +10",
+    "down": "mpc volume -10",
+    "center": "mpc toggle",
+    "right": "mpc next",
+    "left": "mpc prev",
+    "fallback": "mpc current"
+  }
+}
